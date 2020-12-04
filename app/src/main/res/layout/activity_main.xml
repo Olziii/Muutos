@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="PÄIVÄMÄÄRÄ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ruoat"
+        android:layout_width="153dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="paivanRuoat"
+        android:text="Paivan\nRuoat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/urheilut"
+        android:layout_width="153dp"
+        android:layout_height="126dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="paivanUrheilu"
+        android:text="Päivän Urheilu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/tavoitteet"
+        android:layout_width="331dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="kaikkiTavoitteet"
+        android:text="Tavoitteet"
+        app:layout_constraintBottom_toTopOf="@+id/ruoat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kulutus" />
+
+    <TextView
+        android:id="@+id/kulutus"
+        android:layout_width="331dp"
+        android:layout_height="156dp"
+        android:gravity="center"
+        android:text="kulutus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="43dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="368dp"
+        android:layout_marginLeft="368dp"
+        android:layout_marginBottom="237dp"
+        android:onClick="kaikkiAsetukset"
+        app:layout_constraintBottom_toTopOf="@+id/kulutus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

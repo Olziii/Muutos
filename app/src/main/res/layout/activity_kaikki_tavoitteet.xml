@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="PÄIVÄMÄÄRÄ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kktavoite"
+        android:layout_width="181dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="kuukaudenTavoite"
+        android:text="Kuukauden tavoite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilmoitukset" />
+
+    <Button
+        android:id="@+id/vuositavoite"
+        android:layout_width="181dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="vuodenTavoite"
+        android:text="vuoden\ntavoite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilmoitukset" />
+
+    <Button
+        android:id="@+id/ilmoitukset"
+        android:layout_width="378dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="viikonTavoite"
+        android:text="viikon\ntavoite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poistaPaivanTavoite" />
+
+    <TextView
+        android:id="@+id/paivatavoite"
+        android:layout_width="374dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="PÄIVÄNTAVOITE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateView" />
+
+    <Button
+        android:id="@+id/poistaPaivanTavoite"
+        android:layout_width="175dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Poista paivan\ntavoite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lisaaPaivanTavoite"
+        app:layout_constraintTop_toBottomOf="@+id/paivatavoite" />
+
+    <Button
+        android:id="@+id/lisaaPaivanTavoite"
+        android:layout_width="175dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Lisaa päivän\ntavoite"
+        app:layout_constraintEnd_toStartOf="@+id/poistaPaivanTavoite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paivatavoite" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
