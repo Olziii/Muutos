@@ -16,6 +16,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import org.w3c.dom.Text;
 /**
  * Luokka, joka sisältää PäivänTavoitteet näkymän toiminnot
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class PaivanTavoitteet extends AppCompatActivity {
     ListView tavoiteList;
@@ -56,16 +60,6 @@ public class PaivanTavoitteet extends AppCompatActivity {
     public void merkkaaValmiiks(View v){
         //Etsii sijainnin mukaan tavoitteen ja poistaa sen, koska se on valmis
         TehdytTavoitteet.getInstance().lisaaTehdyt(this);
-        Tavoitteet.getInstance().poistha(this, sijainti);
-        adapter.notifyDataSetChanged();
-        popup.cancel();
-    }
-
-    /**
-     * Käyttäjä voi poistaa tavoitteen,jos on esimerkiksi kirjoittanut jotain väärin
-     * @param v
-     */
-    public void poistaTavoite(View v){
         Tavoitteet.getInstance().poistha(this, sijainti);
         adapter.notifyDataSetChanged();
         popup.cancel();

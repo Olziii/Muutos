@@ -8,6 +8,10 @@ import com.google.gson.Gson;
 
 /**
  * Luokka, jossa käytetään Profiili-olioon liittyviä toimintoja, kuten tallennus
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class ProfileHolder {
     private static ProfileHolder instance = new ProfileHolder();

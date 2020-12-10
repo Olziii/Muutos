@@ -1,6 +1,10 @@
 package com.example.androidprojekti;
 /**
  * Tavoite-olio
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class Tavoite {
     private String tavoite;

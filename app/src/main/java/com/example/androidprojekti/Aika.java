@@ -10,6 +10,10 @@ import java.util.Locale;
 
 /**
  * Luokka, jota voidaan hyödynää aikaan liittyvissä toiminnoissa
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class Aika {
     /**

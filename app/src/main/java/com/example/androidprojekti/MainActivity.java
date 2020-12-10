@@ -24,6 +24,9 @@ import static java.lang.Math.abs;
  *
  * Luokka, joka ohjaa koko sovelluksen toimintaa ja vie käyttäjää seuraaviin näkymiin
  * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class MainActivity extends AppCompatActivity {
     private Gson gson = new Gson();

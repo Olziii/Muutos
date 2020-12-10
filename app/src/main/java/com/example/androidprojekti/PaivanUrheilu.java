@@ -20,6 +20,10 @@ import java.util.Date;
 
 /**
  * Luokka, joka sisältää PäivänUrheilu näkymän toiminnot
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class PaivanUrheilu extends AppCompatActivity {
     private View popupView;

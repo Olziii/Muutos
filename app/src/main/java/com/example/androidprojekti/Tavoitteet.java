@@ -13,6 +13,10 @@ import java.util.Set;
 
 /**
  * Tavoite-olioita varten tehty lista ja sen toiminnot
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class Tavoitteet {
     Gson gson = new Gson();

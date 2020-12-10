@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Luokka, joka laittaa yhteystiedot näkyville Asetukset näkymässä
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class Yhteystiedot extends AppCompatActivity {
     @Override

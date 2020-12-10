@@ -18,6 +18,10 @@ import java.util.List;
 
 /**
  * Luokka, joka sisältää PäivänRuoat näkymän toiminnot
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class PaivanRuoat extends AppCompatActivity {
     private View popupView;

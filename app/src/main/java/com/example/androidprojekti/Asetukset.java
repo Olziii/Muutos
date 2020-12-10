@@ -20,12 +20,15 @@ import com.google.gson.Gson;
 import org.w3c.dom.Text;
 /**
  * Luokka, joka sisältää Asetukset näkymän toiminnot
+ * @author Oliver Hamberg
+ * @author Joona Nylander
+ * @author Niklas Kukkonen
+ * @since  12.11.2020
  */
 public class Asetukset extends AppCompatActivity {
     private static final String TAG = "kaikkiAsetukset";
     Profiili kayttajaprofiili;
     SharedPreferences prefs;
-    TextView nimi, ika, paino, sukupuoli, rasitustaso;
     private Gson gson = new Gson();
     private View popupView;
     private AlertDialog popup;
