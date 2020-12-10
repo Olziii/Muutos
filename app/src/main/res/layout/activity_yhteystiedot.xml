@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/Oliver"
+        android:layout_width="410dp"
+        android:layout_height="129dp"
+        android:text="Hamberg Oliver, ohjelmistokehittäjä\nPuhelinnumero: 0445131012\nSähköposti: hamberg.oliver@gmail.com"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/Niklas"
+        android:layout_width="396dp"
+        android:layout_height="128dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="Niklas Kukkonen, design ja tietosuoja\nPuhelinnumero: 0401908824\nSähköposti: niklas.kukkonen@metropolia.fi"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/Joona"
+        android:layout_width="410dp"
+        android:layout_height="129dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="Joona Nylander, ohjelmistosuunnittelija\nPuhelinnumero: 0440730407\nSähköposti: joona.nylander@metropolia.fi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,83 +6,55 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/tietosuoja"
-        android:layout_width="181dp"
-        android:layout_height="93dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="tietosuoja"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/kayttoehdot"
-        android:layout_width="181dp"
-        android:layout_height="93dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="Käyttöehdot"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/ilmoitukset"
-        android:layout_width="378dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="117dp"
-        android:text="ilmoitukset"
+        android:id="@+id/kayttoehdotTietosuoja"
+        android:layout_width="361dp"
+        android:layout_height="91dp"
+        android:onClick="avaaTietosuoja"
+        android:text="käyttöehdot ja tietosuoja"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ohje" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981" />
+
+    <Button
+        android:id="@+id/profiili"
+        android:layout_width="362dp"
+        android:layout_height="83dp"
+        android:onClick="naytaProfiili"
+        android:text="Profiili"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
 
     <Button
         android:id="@+id/otayhteytta"
-        android:layout_width="378dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="341dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="362dp"
+        android:layout_height="83dp"
+        android:onClick="avaaYhteystiedot"
         android:text="Ota yhteyttä"
-        app:layout_constraintBottom_toTopOf="@+id/ohje"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/ohje"
-        android:layout_width="378dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="Ohje"
-        app:layout_constraintBottom_toTopOf="@+id/ilmoitukset"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/otayhteytta" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
 
     <TextView
         android:id="@+id/asetukset"
-        android:layout_width="217dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="231dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="90dp"
         android:gravity="center"
         android:text="ASETUKSET"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

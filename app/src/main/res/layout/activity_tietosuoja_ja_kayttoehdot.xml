@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/suojaehdot"
+        android:layout_width="365dp"
+        android:layout_height="685dp"
+        android:text="Mobiilisovelluksen tietosuojaseloste\n\n
+
+1. Rekisterinpitäjä\nGroup 5, Metropolia University of Applied Sciences\n\n-
+Osoite: Karaportti 2, 02610 Espoo\n
+Puhelin:
+Niklas Kukkonen p. 0401908824\n
+Sähköposti: niklas.kukkonen@metropolia.fi \n
+Rekisteröityjen informoinnin ja rekisteröidyn oikeuksien toteuttamisen osalta vastuutahona toimii Group 5.\n
+Yhteyshenkilö tietosuoja-asioissa: Niklas Kukkonen, Group 5. \n\n\n
+
+2. Henkilötietojen käsittelyn tarkoitus\n\n
+Sovellus on suunniteltu tukemaan käyttäjää terveellisemmän elämäntavan löytämiseen ja ylläpitämiseen. \n Mobiilisovellus on järjestelmien kokonaisuus, joka koostuu mobiilisovelluksesta ja sen taustajärjestelmästä.\n Ulkoista käyttöliittymää ei ole, jolloin kaikki sovelluksen keräämät tiedot pysyvät käyttäjän puhelimessa ja sovelluksen tiedostoissa. \n
+Sovelluksen ja siinä käsiteltävien mahdollisten henkilötietojen käsittelyn tarkoituksena on käyttäjien auttaminen ja tukeminen elämäntilanteen muutoksessa.\n Sovelluksen käyttö on vapaaehtoista.\n
+Henkilötietoja käsitellään mobiilisovelluksessa iOS- ja Android -käyttöliittymissä, sekä sovelluksen taustajärjestelmässä.\n
+Ammattilaisen käyttöoikeustietoja voidaan käyttää normaaleissa työasemaohjelmistoissa.\n\n\n
+
+3. Mitä henkilötietoja keräämme?\n\n
+Muutos ei kerää itsekseen käyttäjän henkilökohtaisia tietoja. Kaikki sovelluksen keräämät ja varastoimat tiedot tulee käyttäjältä itseltään, eikä sen toiminta vaadi henkilötietojen syöttöä. \n
+Sovellus tallentaa keräämänsä tiedot puhelimen sisällä oleviin sovelluksen tiedostoihin. \n\n
+Muutos kerää seuraavia tietoja:\n
+Käyttäjän antaman kävely/juoksukilometrien määrän\n
+Käyttäjän antaman ruuan määrän ja kalorit\n
+Käyttäjän antamat tavoitteet\n\n\n
+
+4. Henkilötietojesi jakaminen kolmansille osapuolille\n\n
+Kunnioitamme henkilötietojesi luottamuksellisuutta. Emme myy henkilötietojasi tai aseta niitä kaupallisesti kenenkään kolmannen osapuolen saataville.\n
+Emme jaa tietojasi eteenpäin muille osapuolille.\n\n\n
+
+5. Henkilötietojesi turvallisuus \n\n
+Henkilöstöllämme ei ole yleistä pääsyä henkilötietoihisi. Ainoastaan sellaisilla meidän tai alihankkijoidemme työntekijöillä on oikeus saada pääsy henkilötietoihisi, jotka ovat oikeutettuja käsittelemään niitä esimerkiksi sovelluksen tukipalvelujen tarjoamiseksi. \n
+Olemme varmistaneet, että kyseisellä henkilöstöllä ei ole oikeutta käsitellä henkilötietojasi laajemmin kuin mitä on tarpeen Sovelluksen toteuttamiseksi.\n
+Olemme ottaneet käyttöön tietoturvatekniikoita ja keinoja, joilla suojaamme henkilötietosi ja estämme henkilötietojesi asiattoman pääsyn, käytön ja luovutuksen.\n\n\n
+
+6. Muut henkilötietojen käsittelyyn liittyvät oikeudet\n\n
+Sinulla on oikeus:\n
+Tarkastaa, päivittää, poistaa ja korjata henkilötietosi;\n
+Peruuttaa suostumuksesi, jos henkilötietojesi käsittely perustuu suostumukseesi;\n
+Vastustaa henkilötietojesi käsittelyä;\n
+Vaatia meitä rajoittamaan henkilötietojesi käsittelyä;\n
+ Ja saada henkilötietosi koneluettavassa muodossa ja siirtää kyseiset tiedot toiselle rekisterinpitäjälle edellyttäen, että olet toimittanut kyseiset henkilötiedot meille ja että käsittelemme henkilötietojasi suostumuksesi perusteella. \n\n
+Voit esittää edellä mainittuja oikeuksia koskevan pyyntösi ottamalla meihin yhteyttä henkilökohtaisesti, kirjeitse tai sähköpostitse tämän tietosuojaselosteen kohdassa 1 annettuun osoitteeseen. \nVoimme pyytää sinua tarkentamaan pyyntöäsi kirjallisesti ja varmentamaan henkilöllisyytesi ennen pyyntösi käsittelemistä.\n\n"
+        android:textColor="#000000"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+</androidx.constraintlayout.widget.ConstraintLayout>
