@@ -26,7 +26,7 @@ import static java.lang.Math.abs;
  * @author Oliver Hamberg
  * @author Joona Nylander
  * @author Niklas Kukkonen
- * @since  12.11.2020
+ * @since  11.12.2020
  */
 public class MainActivity extends AppCompatActivity {
     private Gson gson = new Gson();
